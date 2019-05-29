@@ -5,12 +5,12 @@ defmodule Crawler do
   end
 
   def get_new_page() do
-    SlowScraper.request_page(:hn, "https://news.ycombinator.com/newest", 15_000, 250, 5000)
+    SlowScraper.request_page(:hn, "https://news.ycombinator.com/newest", 15_000, 1250, 15000)
     |> parse_new()
   end
 
   def get_job_page() do
-    SlowScraper.request_page(:hn, "https://news.ycombinator.com/jobs", 15_000, 250, 5000)
+    SlowScraper.request_page(:hn, "https://news.ycombinator.com/jobs", 15_000, 1250, 15000)
     |> parse_new()
   end
 

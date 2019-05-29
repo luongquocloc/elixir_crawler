@@ -20,7 +20,7 @@ defmodule Lab1.Application do
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
-    opts = [strategy: :one_for_one, name: Lab1.Supervisor]
+    opts = [strategy: :one_for_all  , name: Lab1.Supervisor]
     Supervisor.start_link(children, opts)
   end
 
