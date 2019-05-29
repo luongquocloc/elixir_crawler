@@ -1,0 +1,22 @@
+<section class="phx-hero">
+  <div class="brounded-6g p-12">
+  <h3 class="text-center md:text-left">Newest</h3>
+  <ul>
+    <%= for news  <- hn_newest() do %>
+      <li><a href="<%= news.url %>"><%= news.title%></a></li>
+    <% end %>
+  </ul>
+  </div>
+
+<div class="brounded-6g p-12">
+  <h3 class="text-center md:text-left">Hotest</h3>
+  <ul>
+    <%= for hot  <- hn_hot() do %>
+      <li><a href="<%= hot.url %>"><%= hot.title%></a></li>
+    <% end %>
+  </ul>
+  </div>
+
+</section>
+
+</section>
