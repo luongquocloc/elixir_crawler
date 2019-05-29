@@ -1,5 +1,5 @@
 # Lab1
-
+![alt text](https://raw.githubusercontent.com/luongquocloc/elixir_crawler/master/assets/static/images/elixir_crawler_phoenix.png)
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
