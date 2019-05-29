@@ -8,7 +8,7 @@ To start your Phoenix server:
   * Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
+![alt text](https://raw.githubusercontent.com/luongquocloc/elixir_crawler/master/assets/static/images/elixir_crawler_phoenix2.png)
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
 ## Learn more
